@@ -1,0 +1,408 @@
+@font-face {
+  font-family:"DINCondensed-Bold";
+  src: url(../fonts/DINCondensed-Bold.ttf);
+}
+
+
+.group1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1280px;
+    height: 82px;
+    background-color: #0E0011;
+  }
+  .bitmap {
+    position: absolute;
+    left: 0px;
+    top: 82px;
+    width: 1280px;
+    height: 512px;
+    background:  url(../assets/images/bg.png)  no-repeat;
+  }
+  .group2 {
+    position: absolute;
+    left: 0px;
+    top: 537px;
+    width: 1280px;
+    height: 100px;
+    background-color:#130017;
+  }
+  .group3 {
+    position: absolute;
+    left: 0px;
+    top: 637px;
+    width: 1280px;
+    height: 32px;
+    background:#0C0912;
+  } 
+  .footerBg {
+    position: absolute;
+    left: 0px;
+    top: 669px;
+    width: 1280px;
+    height: 52px;
+    background: #0C0912;
+  }
+  .logo {
+    position: absolute;
+    left: 40px;
+    top: 18.17px;
+    width: 128px;
+    height: 44.97px;
+    background-blend-mode: normal;
+  }
+  
+  .assistant {
+    position: absolute;
+    left: 1190px;
+    top: 202px;
+    width: 61px;
+    height: 124px;
+  }
+  .wifi {
+    position: absolute;
+    left: 1187px;
+    top: 394.4px;
+    width: 80px;
+    height: 60px;
+  }
+  .video {
+    position: absolute;
+    left: 1180px;
+    top: 100px;
+    width: 80px;
+    height: 60px;
+  }
+  .yellowButt {
+    position: absolute;
+    left: 40px;
+    top: 686.75px;
+    width: 36px;
+    height: 20px;
+  }
+ .stetting {
+    position: absolute;
+    left: 81px;
+    top: 690.75px;
+    width: 108px;
+    height: 19px;
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+    color: #ffffff;
+    font-family: "DINCondensed-Bold";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  .tv {
+    position: absolute;
+    left: 126px;
+    top: 524px;
+    width: 127px;
+    height: 116px;
+  }
+ .tv2 {
+    position: absolute;
+    left: 150px;
+    top: 552px;
+    width: 80px;
+    height: 60px;
+  }
+  .movies {
+    position: absolute;
+    left: 301px;
+    top: 563px;
+    width: 80px;
+    height: 60px;
+  }
+  .weather {
+    position: absolute;
+    left: 449px;
+    top: 563px;
+    width: 80px;
+    height: 60.31px;
+  }
+  .hotel {
+    position: absolute;
+    left: 599px;
+    top: 563px;
+    width: 80px;
+    height: 60px;
+  }
+  .screen {
+    position: absolute;
+    left: 752px;
+    top: 563px;
+    width: 80px;
+    height: 60px;
+  }
+  .bluetooth {
+    position: absolute;
+    left: 905px;
+    top: 563px;
+    width: 80px;
+    height: 60px;
+  }
+  .input {
+    position: absolute;
+    left: 1053px;
+    top: 563px;
+    width: 80px;
+    height: 60px;
+  }
+.tvr {
+  opacity: 0.6912202;
+  position: absolute;
+  left: 144px;
+  top: 645px;
+  width: 100px;
+  height: 22px;
+  text-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+  color: #d1d1d1;
+  font-family: "DINCondensed-Bold";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+}
+.mov {
+  opacity: 0.6912202;
+  position: absolute;
+  left: 304px;
+  top: 645px;
+  width: 69px;
+  height: 22px;
+  text-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+  color: #d1d1d1;
+  font-family: "DINCondensed-Bold";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+}
+.weat {
+  opacity: 0.6912202;
+  position: absolute;
+  left: 446px;
+  top: 645px;
+  width: 87px;
+  height: 22px;
+  text-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+  color: #d1d1d1;
+  font-family: "DINCondensed-Bold";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+}
+.hotelguide {
+  opacity: 0.6912202;
+  position: absolute;
+  left: 581.5px;
+  top: 645px;
+  width: 120px;
+  height: 22px;
+  text-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+  color: #d1d1d1;
+  font-family: "DINCondensed-Bold";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+}
+.screenshare {
+  opacity: 0.6912202;
+  position: absolute;
+  left: 716.5px;
+  top: 645px;
+  width: 156px;
+  height: 22px;
+  text-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+  color: #d1d1d1;
+  font-family: "DINCondensed-Bold";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+}
+.blth {
+  opacity: 0.6912202;
+  position: absolute;
+  left: 890px;
+  top: 645px;
+  width: 110px;
+  height: 22px;
+  text-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+  color: #d1d1d1;
+  font-family: "DINCondensed-Bold";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+}
+.inputsrc {
+  opacity: 0.6912202;
+  position: absolute;
+  left: 1031px;
+  top: 645px;
+  width: 134px;
+  height: 22px;
+  text-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+  color: #d1d1d1;
+  font-family: "DINCondensed-Bold";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+}
+.pyxisLogo {
+  position: absolute;
+  left: 1200px;
+  top: 685px;
+  width: 40px;
+  height: 25px;
+  background-blend-mode: normal;
+  box-shadow: 0px 1px 2px;
+}
+
+.alarm {
+  position: absolute;
+  left: 1109px;
+  top: 29px;
+  width: 24px;
+  height: 25px;
+}
+.group4 {
+  position: absolute;
+  left: 190.5px;
+  top: 294px;
+  width: 785px;
+  height: 67px;
+}
+
+.group5 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 785px;
+  height: 67px;
+  border: 1px dashed rgba(151,151,151,0.17);
+  background: linear-gradient(180deg, rgba(0,0,0,0.05) 0%, rgba(90,90,90,0.1) 100%);
+  background-blend-mode: normal;
+  backdrop-filter: blur(36px);
+}
+.howhelp{
+  position: absolute;
+  left: 100px;
+  top: 0px;
+  width: 72px;
+  height: 72px;
+  background-blend-mode: normal;
+}
+.help {
+  opacity: 0.6912202;
+  position: absolute;
+  left: 250px;
+  top: 20px;
+  width: 359px;
+  height: 39px;
+  text-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+  color: #ffffff;
+  font-family: "DINCondensed-Bold";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 39px;
+  text-align: center;
+}
+.group6{
+  position:absolute;
+  left: 228px;
+  top: 28px;
+  width: 458px;
+  height: 30px;
+
+}
+
+.welcomeTex {
+  position: absolute;
+  left: 61px;
+  top: 7px;
+  width: 397px;
+  height: 21px;
+  text-shadow: 0px 1px 2px rgba(0,0,0,0.5);
+  color: #ffffff;
+  font-family: "DINCondensed-Bold";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.rn-Bg {
+  opacity: 0.43877882;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 52px;
+  height: 26px;
+  border: 1px dashed rgba(255,255,255,0.5);
+  background: linear-gradient(180deg, rgba(18,18,18,0.55) 0%, rgba(134,134,134,0.65) 99,92%);
+  background-blend-mode: normal;
+}
+
+.roomNumber {
+  position: absolute;
+  left: 5px;
+  top: 1px;
+  width: 42px;
+  height: 24px;
+  color: #ffffff;
+  font-family: "DINCondensed-Bold";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.blueButton {
+  position: absolute;
+  left: 1104px;
+  top: 87px;
+  width: 36px;
+  height: 20px;
+}
+.messageAle {
+  position: absolute;
+  left: 1146px;
+  top: 83px;
+  width: 108px;
+  height: 38px;
+  color: #ffffff;
+  font-family: "DINCondensed-Bold";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+.time {
+  position: absolute;
+  left: 1160px;
+  top: 21px;
+  width: 98px;
+  height: 24px;
+  color: #f0f0f0;
+  font-family: "DINCondensed-Bold";
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.date {
+  position: absolute;
+  left: 1163px;
+  top: 52px;
+  width: 105px;
+  height: 19px;
+  color: #ffffff;
+  font-family: "DINCondensed-Bold";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
