@@ -1,0 +1,736 @@
+@font-face {
+  font-family:"DINCondensed-Bold";
+  src: url(../fonts/DINCondensed-Bold.ttf);
+}
+
+.background {
+  position: absolute;
+  left: 0px;
+  top: 3px;
+  width: 1280px;
+  height: 720px;
+}
+
+.bgImage {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1280px;
+  height: 720px;
+  background:  url(../assets/images/SelectedMenuImage.png)  no-repeat;
+}
+
+/*Header*/
+.header{
+  position: absolute;
+  left: 0px;
+  top: -1px;
+  width: 1280px;
+  height: 65px;
+}
+.groupHeader1{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1280px;
+  height: 65px;
+}
+.groupHeader2{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1280px;
+  height: 65px;
+}
+.barBg{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1280px;
+  height: 65px;
+}
+.rect1{
+  position: absolute;
+  left: 0px;
+  top: 1px;
+  width: 1280px;
+  height: 64px;
+  background: linear-gradient(180deg, rgba(0,0,0,0.88) 0%, rgba(0,0,0,0.78) 100%);
+  background-blend-mode: normal;
+  backdrop-filter: blur(50px);
+}
+.rect2{
+  position: absolute;
+  left: 0px;
+  top: 1px;
+  width: 1280px;
+  height: 64px;
+  background: linear-gradient(180deg, #0b0809 0%, #21121c 100%);
+  background-blend-mode: normal;
+}
+.logoMenu{
+  position: absolute;
+  left: 40px;
+  top: 10.17px;
+  width: 128px;
+  height: 44.97px;
+}
+.rectRoomN {
+  opacity: 0.43877882;
+  position: absolute;
+  left: 216px;
+  top: 20px;
+  width: 52px;
+  height: 26px;
+  border: 1px dashed rgba(255,255,255,0.5);
+  background: linear-gradient(180deg, rgba(18,18,18,0.55) 0%, rgba(134,134,134,0.65) 99,92%);
+  background-blend-mode: normal;
+}
+
+.roomNumber{
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  width: 52px;
+  height: 26px;
+  color: #ffffff;
+  font-family: "DINCondensed-Bold";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+.DearTolga{
+  position: absolute;
+  left: 277px;
+  top: 27px;
+  width: 397px;
+  height: 21px;
+  text-shadow: 0px 1px 2px rgba(0,0,0,0.5);
+  color: #ffffff;
+  font-family: "DINCondensed-Bold";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.alarm{
+  position: absolute;
+  left: 1109px;
+  top: 22px;
+  width: 24px;
+  height: 25px;
+}
+.T21Fev{
+  position: absolute;
+  left: 1174px;
+  top: 44px;
+  width: 105px;
+  height: 19px;
+  color: #ffffff;
+  font-family: "DINCondensed-Bold";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+.T18-25{
+  position: absolute;
+  left: 1178px;
+  top: 17px;
+  width: 98px;
+  height: 24px;
+  color: #f0f0f0;
+  font-family: "DINCondensed-Bold";
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 24px;
+}
+/*End Header*/
+
+/*Slider*/
+.slider {
+  position: absolute;
+  left: 0px;
+  top: 476px;
+  width: 1282px;
+  height: 176px;
+}
+.sliderGroup1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1282px;
+  height: 176px;
+}
+.sliderGroup2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1282px;
+  height: 176px;
+}
+.sliderGroup3 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1282px;
+  height: 176px;
+}
+.rectSlider1 {
+  position: absolute;
+  left: 2px;
+  top: 0px;
+  width: 1280px;
+  height: 176px;
+  background: linear-gradient(180deg, #000000 0%, #000000 100%);
+  background-blend-mode: normal;
+  backdrop-filter: blur(50px);
+}
+.sliderGroup4 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1280px;
+  height: 176px;
+}
+.rectSlider2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1280px;
+  height: 176px;
+  background: linear-gradient(180deg, #0b0809 0%, #21121c 100%);
+  background-blend-mode: normal;
+}
+.menuBox {
+  position: absolute;
+  left: 82px;
+  top: 4px;
+  width: 1102px;
+  height: 167px;
+}
+.menu1 {
+position: absolute;
+left: 4px;
+top: 0px;
+width: 133px;
+height: 166px;
+}
+
+.imgMenu1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 133px;
+  height: 166px;
+}
+.selectedMenu{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 141px;
+  height: 167px;
+}
+.selected {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 141px;
+  height: 167px;
+}
+.rectSelectedM {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 141px;
+  height: 167px;
+  background: linear-gradient(121deg, #ffc000 0%, #ffa534 100%);
+  background-blend-mode: normal;
+}
+.menu2 {
+  position: absolute;
+  left: 146px;
+  top: 4px;
+  width: 133px;
+  height: 159px;
+  border: 1px dashed #693749;
+  background: #000000;
+  background-blend-mode: normal;
+}
+.imgMenu2 {
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  width: 131px;
+  height: 157px;
+  box-shadow: 0px 0px 5px;
+}
+.menu3 {
+  position: absolute;
+  left: 286px;
+  top: 4px;
+  width: 133px;
+  height: 159px;
+  border: 1px dashed #693749;
+  background: #000000;
+  background-blend-mode: normal;
+}
+.imgMenu3 {
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  width: 131px;
+  height: 157px;
+  box-shadow: 0px 0px 5px;
+}
+
+.menu4 {
+  position: absolute;
+  left: 425px;
+  top: 4px;
+  width: 133px;
+  height: 159px;
+  border: 1px dashed #693749;
+  background: #000000;
+  background-blend-mode: normal;
+}
+.imgMenu4 {
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  width: 131px;
+  height: 157px;
+  box-shadow: 0px 0px 5px;
+}
+.menu5 {
+  position: absolute;
+  left: 564px;
+  top: 4px;
+  width: 133px;
+  height: 159px;
+  border: 1px dashed #693749;
+  background: #000000;
+  background-blend-mode: normal;
+}
+.imgMenu5 {
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  width: 131px;
+  height: 157px;
+  box-shadow: 0px 0px 5px;
+}
+.menu6 {
+  position: absolute;
+  left: 704px;
+  top: 4px;
+  width: 133px;
+  height: 159px;
+  border: 1px dashed #693749;
+  background: #000000;
+  background-blend-mode: normal;
+}
+.imgMenu6 {
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  width: 131px;
+  height: 157px;
+  box-shadow: 0px 0px 5px;
+}
+.menu7 {
+  position: absolute;
+  left: 843px;
+  top: 4px;
+  width: 133px;
+  height: 159px;
+  border: 1px dashed #693749;
+  background: #000000;
+  background-blend-mode: normal;
+}
+.imgMenu7 {
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  width: 131px;
+  height: 157px;
+  box-shadow: 0px 0px 5px;
+}
+.menu8 {
+  position: absolute;
+  left: 983px;
+  top: 4px;
+  width: 133px;
+  height: 159px;
+  border: 1px dashed #693749;
+  background: #000000;
+  background-blend-mode: normal;
+}
+.imgMenu8 {
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  width: 131px;
+  height: 157px;
+  box-shadow: 0px 0px 5px;
+}
+
+.sliderArrows{
+  position: absolute;
+  left: 28px;
+  top: 73px;
+  width: 1222px;
+  height: 34.5px;
+}
+.left {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 19px;
+  height: 34.5px;
+  transform: scaleX(1);
+}
+
+.right {
+  position: absolute;
+  left: 1203px;
+  top: 0px;
+  width: 19px;
+  height: 34.5px;
+  background-blend-mode: normal;
+}
+
+/*End slider*/
+
+/*Footer*/
+.footer{
+  position: absolute;
+  left: 0px;
+  top: 660px;
+  width: 1280px;
+  height: 60px;
+}
+.footerTopBorder{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1280px;
+  height: 2px;
+}
+.ftb1 {
+  opacity: 0.1;
+  position: absolute;
+  left: 0px;
+  top: 1px;
+  width: 1280px;
+  height: 1px;
+  background: #d8d8d8;
+  background-blend-mode: normal;
+}
+
+.ftb2 {
+  opacity: 0.64515907;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1280px;
+  height: 1px;
+  background: #000000;
+  background-blend-mode: normal;
+}
+.mainMenu{
+  position: absolute;
+  left: 40px;
+  top: 15px;
+  width: 98px;
+  height: 32px;
+}
+.main1 {
+  position: absolute;
+  left: 39.5px;
+  top: 10px;
+  width: 94px;
+  height: 19px;
+  text-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+  color: #ffffff;
+  font-family: "DINCondensed-Bold";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.homeIcone {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 32px;
+  height: 32px;
+
+}
+
+.pager{
+  position: absolute;
+  left: 480px;
+  top: 16px;
+  width: 321px;
+  height: 30px;
+}
+.pyxisLogo{
+  position: absolute;
+  left: 1200px;
+  top: 22px;
+  width: 40px;
+  height: 20px;
+  background-blend-mode: normal;
+  box-shadow: 0px 1px 2px;
+}
+.footerBg{
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  width: 1280px;
+  height: 58px;
+  background: linear-gradient(180deg, #130017 0%, rgba(0,0,0,0.85) 100%);
+  background-blend-mode: normal;
+  backdrop-filter: blur(50px);
+}
+        /*Pager*/
+        .p1 {
+          position: absolute;
+          left: 0px;
+          top: 3px;
+          width: 24px;
+          height: 24px;
+        }
+        
+        .r1 {
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          width: 24px;
+          height: 24px;
+          background: rgba(255,255,255,0.15);
+          background-blend-mode: normal;
+          backdrop-filter: blur(10px);
+        }
+        .p2 {
+          position: absolute;
+          left: 27px;
+          top: 3px;
+          width: 24px;
+          height: 24px;
+        }
+        
+        .r2 {
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          width: 24px;
+          height: 24px;
+          background: rgba(255,255,255,0.15);
+          background-blend-mode: normal;
+          backdrop-filter: blur(10px);
+        }
+        .p3 {
+          position: absolute;
+          left: 51px;
+          top: 0px;
+          width: 30px;
+          height: 30px;
+        }
+        
+        .r3 {
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          width: 30px;
+          height: 30px;
+          border: 1px dashed rgba(151,151,151,0.2);
+          background: conic-gradient(from 90deg, rgba(130,130,130,0.11) 14,67%, rgba(138,138,138,0.84) 65,12%);
+          background-blend-mode: normal;
+          box-shadow: 0px 0px 10px rgba(0,0,0,0.89);
+        }
+        
+        .r3a {
+          position: absolute;
+          left: 2.5px;
+          top: 2.5px;
+          width: 25px;
+          height: 25px;
+          border-radius: 8px;
+          background: #000000;
+          background-blend-mode: normal;
+        }
+        
+        .r3b {
+          position: absolute;
+          left: 2.5px;
+          top: 2.5px;
+          width: 25px;
+          height: 25px;
+          border: 1px dashed #404040;
+          background: linear-gradient(121deg, #ffc000 0%, #ffa534 100%);
+          background-blend-mode: normal;
+        }
+        .p4 {
+          position: absolute;
+          left: 81px;
+          top: 3px;
+          width: 24px;
+          height: 24px;
+        }
+        
+        .r4 {
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          width: 24px;
+          height: 24px;
+          background: rgba(255,255,255,0.15);
+          background-blend-mode: normal;
+          backdrop-filter: blur(10px);
+        }
+        .p5 {
+          position: absolute;
+          left: 108px;
+          top: 3px;
+          width: 24px;
+          height: 24px;
+        }
+        
+        .r5 {
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          width: 24px;
+          height: 24px;
+          background: rgba(255,255,255,0.15);
+          background-blend-mode: normal;
+          backdrop-filter: blur(10px);
+        }
+        .p6 {
+          position: absolute;
+          left: 135px;
+          top: 3px;
+          width: 24px;
+          height: 24px;
+        }
+        
+       .r6 {
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          width: 24px;
+          height: 24px;
+          background: rgba(255,255,255,0.15);
+          background-blend-mode: normal;
+          backdrop-filter: blur(10px);
+        }
+        .p7 {
+          position: absolute;
+          left: 162px;
+          top: 3px;
+          width: 24px;
+          height: 24px;
+        }
+        
+        .r7 {
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          width: 24px;
+          height: 24px;
+          background: rgba(255,255,255,0.15);
+          background-blend-mode: normal;
+          backdrop-filter: blur(10px);
+        }
+        .p8 {
+          position: absolute;
+          left: 189px;
+          top: 3px;
+          width: 24px;
+          height: 24px;
+        }
+        
+        .r8 {
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          width: 24px;
+          height: 24px;
+          background: rgba(255,255,255,0.15);
+          background-blend-mode: normal;
+          backdrop-filter: blur(10px);
+        }
+        .p9 {
+          position: absolute;
+          left: 216px;
+          top: 3px;
+          width: 24px;
+          height: 24px;
+        }
+        
+        .r9 {
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          width: 24px;
+          height: 24px;
+          background: rgba(255,255,255,0.15);
+          background-blend-mode: normal;
+          backdrop-filter: blur(10px);
+        }
+        .p10 {
+          position: absolute;
+          left: 243px;
+          top: 3px;
+          width: 24px;
+          height: 24px;
+        }
+        
+        .r10 {
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          width: 24px;
+          height: 24px;
+          background: rgba(255,255,255,0.15);
+          background-blend-mode: normal;
+          backdrop-filter: blur(10px);
+        }
+        .p11 {
+          position: absolute;
+          left: 270px;
+          top: 3px;
+          width: 24px;
+          height: 24px;
+        }
+        
+        .r11 {
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          width: 24px;
+          height: 24px;
+          background: rgba(255,255,255,0.15);
+          background-blend-mode: normal;
+          backdrop-filter: blur(10px);
+        }
+        .p12 {
+          position: absolute;
+          left: 297px;
+          top: 3px;
+          width: 24px;
+          height: 24px;
+        }
+        
+        .r12 {
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          width: 24px;
+          height: 24px;
+          background: rgba(255,255,255,0.15);
+          background-blend-mode: normal;
+          backdrop-filter: blur(10px);
+        }
+/*End Pager*/
